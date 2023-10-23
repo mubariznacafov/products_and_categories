@@ -1,0 +1,176 @@
+{
+  "categories": [
+    { "id": 1, "categoryName": "Beverages", "seoUrl": "beverages" },
+    { "id": 2, "categoryName": "Condiments", "seoUrl": "condiments" },
+    { "id": 3, "categoryName": "Confections", "seoUrl": "confections" },
+    { "id": 4, "categoryName": "Dairy Products", "seoUrl": "dairy-products" },
+    { "id": 5, "categoryName": "Grains/Cereals", "seoUrl": "grains-cereals" },
+    { "id": 6, "categoryName": "Meat/Poultry", "seoUrl": "meat-poultry" },
+    { "id": 7, "categoryName": "Produce", "seoUrl": "produce" },
+    { "id": 8, "categoryName": "Seafood", "seoUrl": "seafood" },
+    { "id": 9, "categoryName": "Snacks", "seoUrl": "snacks" },
+    { "id": 10, "categoryName": "Sauces", "seoUrl": "sauces" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "productName": "Chai",
+      "quantityPerUnit": "10 boxes x 20 bags",
+      "unitPrice": 18,
+      "unitsInStock": 39
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "productName": "Chang",
+      "quantityPerUnit": "24 - 12 oz bottles",
+      "unitPrice": 19,
+      "unitsInStock": 17
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "productName": "Aniseed Syrup",
+      "quantityPerUnit": "12 - 550 ml bottles",
+      "unitPrice": 10,
+      "unitsInStock": 13
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "productName": "Chef Anton's Cajun Seasoning",
+      "quantityPerUnit": "48 - 6 oz jars",
+      "unitPrice": 22,
+      "unitsInStock": 53
+    },
+    {
+      "id": 5,
+      "categoryId": 3,
+      "productName": "Alice Mutton",
+      "quantityPerUnit": "20 - 1 kg tins",
+      "unitPrice": 21,
+      "unitsInStock": 0
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "productName": "Nunavut Salted Caramel",
+      "quantityPerUnit": "30 - 50 g bags",
+      "unitPrice": 45,
+      "unitsInStock": 30
+    },
+    {
+      "id": 7,
+      "categoryId": 4,
+      "productName": "Teatime Chocolate Biscuits",
+      "quantityPerUnit": "10 boxes x 12 pieces",
+      "unitPrice": 9,
+      "unitsInStock": 25
+    },
+    {
+      "id": 8,
+      "categoryId": 4,
+      "productName": "Scottish Longbreads",
+      "quantityPerUnit": "10 boxes x 8 pieces",
+      "unitPrice": 12,
+      "unitsInStock": 6
+    },
+    {
+      "id": 9,
+      "categoryId": 5,
+      "productName": "Gula Malacca",
+      "quantityPerUnit": "20 - 2 kg bags",
+      "unitPrice": 27,
+      "unitsInStock": 15
+    },
+    {
+      "id": 10,
+      "categoryId": 5,
+      "productName": "Rogede sild",
+      "quantityPerUnit": "1k g pkg.",
+      "unitPrice": 22,
+      "unitsInStock": 86
+    },
+    {
+      "id": 11,
+      "categoryId": 6,
+      "productName": "Ravioli Angelo",
+      "quantityPerUnit": "24 - 250 g pkgs.",
+      "unitPrice": 19.5,
+      "unitsInStock": 36
+    },
+    {
+      "id": 12,
+      "categoryId": 6,
+      "productName": "Filo Mix",
+      "quantityPerUnit": "16 - 2 kg boxes",
+      "unitPrice": 7,
+      "unitsInStock": 74
+    },
+    {
+      "id": 13,
+      "categoryId": 7,
+      "productName": "Perth Pasties",
+      "quantityPerUnit": "48 pieces",
+      "unitPrice": 32.8,
+      "unitsInStock": 0
+    },
+    {
+      "id": 14,
+      "categoryId": 7,
+      "productName": "Tourtière",
+      "quantityPerUnit": "16 pies",
+      "unitPrice": 7.45,
+      "unitsInStock": 21
+    },
+    {
+      "id": 15,
+      "categoryId": 8,
+      "productName": "Pâté chinois",
+      "quantityPerUnit": "24 boxes x 2 pies",
+      "unitPrice": 24,
+      "unitsInStock": 115
+    },
+    {
+      "id": 16,
+      "categoryId": 8,
+      "productName": "Gnocchi di nonna Alice",
+      "quantityPerUnit": "24 - 250 g pkgs.",
+      "unitPrice": 38,
+      "unitsInStock": 21
+    },
+    {
+      "id": 17,
+      "categoryId": 9,
+      "productName": "Röd Kaviar",
+      "quantityPerUnit": "24 - 150 g jars",
+      "unitPrice": 15,
+      "unitsInStock": 101
+    },
+    {
+      "id": 18,
+      "categoryId": 9,
+      "productName": "Longlife Tofu",
+      "quantityPerUnit": "5 kg pkg.",
+      "unitPrice": 10,
+      "unitsInStock": 4
+    },
+    {
+      "id": 19,
+      "categoryId": 10,
+      "productName": "Rhönbräu Klosterbier",
+      "quantityPerUnit": "24 - 0.5 l bottles",
+      "unitPrice": 7.75,
+      "unitsInStock": 125
+    },
+    {
+      "id": 20,
+      "categoryId": 10,
+      "productName": "Lakkalikööri",
+      "quantityPerUnit": "500 ml",
+      "unitPrice": 18,
+      "unitsInStock": 57
+    }
+  ]
+}

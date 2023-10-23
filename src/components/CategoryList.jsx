@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ListGroup } from "react-bootstrap";
 
 const CategoryList = (props) => {
-  const { info, selectedCategory, changeCategory } = props; // Props'u al
+  const { info, selectedCategory, changeCategory } = props;
+  const [categories, setCategories] = useState([]);
 
-  const categories = [
-    { categoryId: 1, categoryName: "Foods" },
-    { categoryId: 2, categoryName: "Drinks" },
-  ];
+  useEffect(() => {
+    const getCategories = () => {
+      fetch("http://localhost:3000/categories")
+        .then((response) => response.json())
+        .then((data) => setCategories(data))
+        .catch((err) => console.error(err));
+    };
+    getCategories();
+  }, []);
 
   return (
     <div>
@@ -15,9 +21,9 @@ const CategoryList = (props) => {
       <ListGroup>
         {categories.map((category) => (
           <ListGroup.Item
-            key={category.categoryId}
+            key={category.id}
             onClick={() => {
-              changeCategory(category.categoryName);
+              changeCategory(category.categoryName); // Doğru kategori adını aldığınızdan emin olun
             }}
           >
             {category.categoryName}

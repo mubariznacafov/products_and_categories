@@ -1,17 +1,18 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList";
 import CategoryList from "./components/CategoryList";
 
 function App() {
-  let categoryInfo = { title: "Category List" };
-  let productInfo = { title: "Product List" };
-
   const [selectedCategory, setSelectedCategory] = useState("");
 
   const changeCategory = (categoryName) => {
     setSelectedCategory(categoryName);
   };
+
+  const productInfo = { title: "Product List" };
+  const categoryInfo = { title: "Category List" };
+
   return (
     <>
       <div>
@@ -21,15 +22,15 @@ function App() {
         <div className="d-flex justify-content-center">
           <div className="col-3 text-center">
             <CategoryList
-              info={categoryInfo}
               selectedCategory={selectedCategory}
               changeCategory={changeCategory}
+              info={categoryInfo}
             />
           </div>
           <div className="col-9 text-center">
             <ProductList
+              selectedCategory={selectedCategory} // Seçilen kategori adını ProductList'e iletiyoruz
               info={productInfo}
-              selectedCategory={selectedCategory}
             />
           </div>
         </div>
