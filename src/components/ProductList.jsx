@@ -4,7 +4,6 @@ import { Table } from "react-bootstrap";
 const ProductList = (props) => {
   const { selectedCategory } = props;
   const [filteredProducts, setFilteredProducts] = useState([]);
-
   useEffect(() => {
     const getProducts = () => {
       fetch("http://localhost:3000/products")
@@ -26,7 +25,9 @@ const ProductList = (props) => {
 
   return (
     <div>
-      <h1>{props.info.title}</h1>
+      <h1>
+        {props.info.title}-{selectedCategory}
+      </h1>
       <Table striped bordered hover>
         <thead>
           <tr>

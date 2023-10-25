@@ -30,147 +30,787 @@
     },
     {
       "id": 3,
-      "categoryId": 2,
-      "productName": "Aniseed Syrup",
-      "quantityPerUnit": "12 - 550 ml bottles",
-      "unitPrice": 10,
-      "unitsInStock": 13
-    },
-    {
-      "id": 4,
-      "categoryId": 2,
-      "productName": "Chef Anton's Cajun Seasoning",
-      "quantityPerUnit": "48 - 6 oz jars",
-      "unitPrice": 22,
-      "unitsInStock": 53
-    },
-    {
-      "id": 5,
-      "categoryId": 3,
-      "productName": "Alice Mutton",
-      "quantityPerUnit": "20 - 1 kg tins",
-      "unitPrice": 21,
-      "unitsInStock": 0
-    },
-    {
-      "id": 6,
-      "categoryId": 3,
-      "productName": "Nunavut Salted Caramel",
-      "quantityPerUnit": "30 - 50 g bags",
-      "unitPrice": 45,
-      "unitsInStock": 30
-    },
-    {
-      "id": 7,
-      "categoryId": 4,
-      "productName": "Teatime Chocolate Biscuits",
-      "quantityPerUnit": "10 boxes x 12 pieces",
-      "unitPrice": 9,
+      "categoryId": 1,
+      "productName": "Product 3",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
       "unitsInStock": 25
     },
     {
-      "id": 8,
-      "categoryId": 4,
-      "productName": "Scottish Longbreads",
-      "quantityPerUnit": "10 boxes x 8 pieces",
+      "id": 4,
+      "categoryId": 1,
+      "productName": "Product 4",
+      "quantityPerUnit": "10 units",
       "unitPrice": 12,
-      "unitsInStock": 6
+      "unitsInStock": 30
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "productName": "Product 5",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 20,
+      "unitsInStock": 22
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "productName": "Product 6",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 18,
+      "unitsInStock": 27
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "productName": "Product 7",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 17,
+      "unitsInStock": 34
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "productName": "Product 8",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 16,
+      "unitsInStock": 19
     },
     {
       "id": 9,
-      "categoryId": 5,
-      "productName": "Gula Malacca",
-      "quantityPerUnit": "20 - 2 kg bags",
-      "unitPrice": 27,
-      "unitsInStock": 15
+      "categoryId": 1,
+      "productName": "Product 9",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 29
     },
     {
       "id": 10,
-      "categoryId": 5,
-      "productName": "Rogede sild",
-      "quantityPerUnit": "1k g pkg.",
-      "unitPrice": 22,
-      "unitsInStock": 86
+      "categoryId": 1,
+      "productName": "Product 10",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 21,
+      "unitsInStock": 37
     },
     {
       "id": 11,
-      "categoryId": 6,
-      "productName": "Ravioli Angelo",
-      "quantityPerUnit": "24 - 250 g pkgs.",
-      "unitPrice": 19.5,
-      "unitsInStock": 36
+      "categoryId": 2,
+      "productName": "Product 11",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 20
     },
     {
       "id": 12,
-      "categoryId": 6,
-      "productName": "Filo Mix",
-      "quantityPerUnit": "16 - 2 kg boxes",
-      "unitPrice": 7,
-      "unitsInStock": 74
+      "categoryId": 2,
+      "productName": "Product 12",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 18
     },
     {
       "id": 13,
-      "categoryId": 7,
-      "productName": "Perth Pasties",
-      "quantityPerUnit": "48 pieces",
-      "unitPrice": 32.8,
-      "unitsInStock": 0
+      "categoryId": 2,
+      "productName": "Product 13",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 12,
+      "unitsInStock": 22
     },
     {
       "id": 14,
-      "categoryId": 7,
-      "productName": "Tourtière",
-      "quantityPerUnit": "16 pies",
-      "unitPrice": 7.45,
-      "unitsInStock": 21
+      "categoryId": 2,
+      "productName": "Product 14",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 16,
+      "unitsInStock": 30
     },
     {
       "id": 15,
-      "categoryId": 8,
-      "productName": "Pâté chinois",
-      "quantityPerUnit": "24 boxes x 2 pies",
-      "unitPrice": 24,
-      "unitsInStock": 115
+      "categoryId": 2,
+      "productName": "Product 15",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 18,
+      "unitsInStock": 28
     },
     {
       "id": 16,
-      "categoryId": 8,
-      "productName": "Gnocchi di nonna Alice",
-      "quantityPerUnit": "24 - 250 g pkgs.",
-      "unitPrice": 38,
-      "unitsInStock": 21
+      "categoryId": 2,
+      "productName": "Product 16",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 25
     },
     {
       "id": 17,
-      "categoryId": 9,
-      "productName": "Röd Kaviar",
-      "quantityPerUnit": "24 - 150 g jars",
-      "unitPrice": 15,
-      "unitsInStock": 101
+      "categoryId": 2,
+      "productName": "Product 17",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 13,
+      "unitsInStock": 31
     },
     {
       "id": 18,
-      "categoryId": 9,
-      "productName": "Longlife Tofu",
-      "quantityPerUnit": "5 kg pkg.",
-      "unitPrice": 10,
-      "unitsInStock": 4
+      "categoryId": 2,
+      "productName": "Product 18",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 19
     },
     {
       "id": 19,
-      "categoryId": 10,
-      "productName": "Rhönbräu Klosterbier",
-      "quantityPerUnit": "24 - 0.5 l bottles",
-      "unitPrice": 7.75,
-      "unitsInStock": 125
+      "categoryId": 2,
+      "productName": "Product 19",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 22
     },
     {
       "id": 20,
-      "categoryId": 10,
-      "productName": "Lakkalikööri",
-      "quantityPerUnit": "500 ml",
+      "categoryId": 2,
+      "productName": "Product 20",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 17,
+      "unitsInStock": 24
+    },
+    {
+      "id": 21,
+      "categoryId": 3,
+      "productName": "Product 21",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 28
+    },
+    {
+      "id": 22,
+      "categoryId": 3,
+      "productName": "Product 22",
+      "quantityPerUnit": "10 units",
       "unitPrice": 18,
-      "unitsInStock": 57
+      "unitsInStock": 26
+    },
+    {
+      "id": 23,
+      "categoryId": 3,
+      "productName": "Product 23",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 20,
+      "unitsInStock": 25
+    },
+    {
+      "id": 24,
+      "categoryId": 3,
+      "productName": "Product 24",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 21,
+      "unitsInStock": 23
+    },
+    {
+      "id": 25,
+      "categoryId": 3,
+      "productName": "Product 25",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 17,
+      "unitsInStock": 30
+    },
+    {
+      "id": 26,
+      "categoryId": 3,
+      "productName": "Product 26",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 33
+    },
+    {
+      "id": 27,
+      "categoryId": 3,
+      "productName": "Product 27",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 36
+    },
+    {
+      "id": 28,
+      "categoryId": 3,
+      "productName": "Product 28",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 16,
+      "unitsInStock": 34
+    },
+    {
+      "id": 29,
+      "categoryId": 3,
+      "productName": "Product 29",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 31
+    },
+    {
+      "id": 30,
+      "categoryId": 3,
+      "productName": "Product 30",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 20,
+      "unitsInStock": 29
+    },
+    {
+      "id": 31,
+      "categoryId": 4,
+      "productName": "Product 31",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 16,
+      "unitsInStock": 26
+    },
+    {
+      "id": 32,
+      "categoryId": 4,
+      "productName": "Product 32",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 28
+    },
+    {
+      "id": 33,
+      "categoryId": 4,
+      "productName": "Product 33",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 13,
+      "unitsInStock": 32
+    },
+    {
+      "id": 34,
+      "categoryId": 4,
+      "productName": "Product 34",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 35
+    },
+    {
+      "id": 35,
+      "categoryId": 4,
+      "productName": "Product 35",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 24
+    },
+    {
+      "id": 36,
+      "categoryId": 4,
+      "productName": "Product 36",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 18,
+      "unitsInStock": 27
+    },
+    {
+      "id": 37,
+      "categoryId": 4,
+      "productName": "Product 37",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 17,
+      "unitsInStock": 30
+    },
+    {
+      "id": 38,
+      "categoryId": 4,
+      "productName": "Product 38",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 12,
+      "unitsInStock": 32
+    },
+    {
+      "id": 39,
+      "categoryId": 4,
+      "productName": "Product 39",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 29
+    },
+    {
+      "id": 40,
+      "categoryId": 4,
+      "productName": "Product 40",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 20,
+      "unitsInStock": 25
+    },
+    {
+      "id": 41,
+      "categoryId": 5,
+      "productName": "Product 41",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 18,
+      "unitsInStock": 28
+    },
+    {
+      "id": 42,
+      "categoryId": 5,
+      "productName": "Product 42",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 16,
+      "unitsInStock": 30
+    },
+    {
+      "id": 43,
+      "categoryId": 5,
+      "productName": "Product 43",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 20,
+      "unitsInStock": 25
+    },
+    {
+      "id": 44,
+      "categoryId": 5,
+      "productName": "Product 44",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 21,
+      "unitsInStock": 23
+    },
+    {
+      "id": 45,
+      "categoryId": 5,
+      "productName": "Product 45",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 17,
+      "unitsInStock": 30
+    },
+    {
+      "id": 46,
+      "categoryId": 5,
+      "productName": "Product 46",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 33
+    },
+    {
+      "id": 47,
+      "categoryId": 5,
+      "productName": "Product 47",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 36
+    },
+    {
+      "id": 48,
+      "categoryId": 5,
+      "productName": "Product 48",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 16,
+      "unitsInStock": 34
+    },
+    {
+      "id": 49,
+      "categoryId": 5,
+      "productName": "Product 49",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 31
+    },
+    {
+      "id": 50,
+      "categoryId": 5,
+      "productName": "Product 50",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 20,
+      "unitsInStock": 29
+    },
+    {
+      "id": 51,
+      "categoryId": 6,
+      "productName": "Product 51",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 20
+    },
+    {
+      "id": 52,
+      "categoryId": 6,
+      "productName": "Product 52",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 18
+    },
+    {
+      "id": 53,
+      "categoryId": 6,
+      "productName": "Product 53",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 12,
+      "unitsInStock": 22
+    },
+    {
+      "id": 54,
+      "categoryId": 6,
+      "productName": "Product 54",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 16,
+      "unitsInStock": 30
+    },
+    {
+      "id": 55,
+      "categoryId": 6,
+      "productName": "Product 55",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 18,
+      "unitsInStock": 28
+    },
+    {
+      "id": 56,
+      "categoryId": 6,
+      "productName": "Product 56",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 25
+    },
+    {
+      "id": 57,
+      "categoryId": 6,
+      "productName": "Product 57",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 13,
+      "unitsInStock": 31
+    },
+    {
+      "id": 58,
+      "categoryId": 6,
+      "productName": "Product 58",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 19
+    },
+    {
+      "id": 59,
+      "categoryId": 6,
+      "productName": "Product 59",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 22
+    },
+    {
+      "id": 60,
+      "categoryId": 6,
+      "productName": "Product 60",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 17,
+      "unitsInStock": 24
+    },
+    {
+      "id": 61,
+      "categoryId": 7,
+      "productName": "Product 61",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 28
+    },
+    {
+      "id": 62,
+      "categoryId": 7,
+      "productName": "Product 62",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 18,
+      "unitsInStock": 26
+    },
+    {
+      "id": 63,
+      "categoryId": 7,
+      "productName": "Product 63",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 20,
+      "unitsInStock": 25
+    },
+    {
+      "id": 64,
+      "categoryId": 7,
+      "productName": "Product 64",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 21,
+      "unitsInStock": 23
+    },
+    {
+      "id": 65,
+      "categoryId": 7,
+      "productName": "Product 65",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 17,
+      "unitsInStock": 30
+    },
+    {
+      "id": 66,
+      "categoryId": 7,
+      "productName": "Product 66",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 33
+    },
+    {
+      "id": 67,
+      "categoryId": 7,
+      "productName": "Product 67",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 36
+    },
+    {
+      "id": 68,
+      "categoryId": 7,
+      "productName": "Product 68",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 16,
+      "unitsInStock": 34
+    },
+    {
+      "id": 69,
+      "categoryId": 7,
+      "productName": "Product 69",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 31
+    },
+    {
+      "id": 70,
+      "categoryId": 7,
+      "productName": "Product 70",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 20,
+      "unitsInStock": 29
+    },
+    {
+      "id": 71,
+      "categoryId": 8,
+      "productName": "Product 71",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 20
+    },
+    {
+      "id": 72,
+      "categoryId": 8,
+      "productName": "Product 72",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 18
+    },
+    {
+      "id": 73,
+      "categoryId": 8,
+      "productName": "Product 73",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 12,
+      "unitsInStock": 22
+    },
+    {
+      "id": 74,
+      "categoryId": 8,
+      "productName": "Product 74",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 16,
+      "unitsInStock": 30
+    },
+    {
+      "id": 75,
+      "categoryId": 8,
+      "productName": "Product 75",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 18,
+      "unitsInStock": 28
+    },
+    {
+      "id": 76,
+      "categoryId": 8,
+      "productName": "Product 76",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 25
+    },
+    {
+      "id": 77,
+      "categoryId": 8,
+      "productName": "Product 77",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 13,
+      "unitsInStock": 31
+    },
+    {
+      "id": 78,
+      "categoryId": 8,
+      "productName": "Product 78",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 19
+    },
+    {
+      "id": 79,
+      "categoryId": 8,
+      "productName": "Product 79",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 22
+    },
+    {
+      "id": 80,
+      "categoryId": 8,
+      "productName": "Product 80",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 17,
+      "unitsInStock": 24
+    },
+    {
+      "id": 81,
+      "categoryId": 9,
+      "productName": "Product 81",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 28
+    },
+    {
+      "id": 82,
+      "categoryId": 9,
+      "productName": "Product 82",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 18,
+      "unitsInStock": 26
+    },
+    {
+      "id": 83,
+      "categoryId": 9,
+      "productName": "Product 83",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 20,
+      "unitsInStock": 25
+    },
+    {
+      "id": 84,
+      "categoryId": 9,
+      "productName": "Product 84",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 21,
+      "unitsInStock": 23
+    },
+    {
+      "id": 85,
+      "categoryId": 9,
+      "productName": "Product 85",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 17,
+      "unitsInStock": 30
+    },
+    {
+      "id": 86,
+      "categoryId": 9,
+      "productName": "Product 86",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 33
+    },
+    {
+      "id": 87,
+      "categoryId": 9,
+      "productName": "Product 87",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 36
+    },
+    {
+      "id": 88,
+      "categoryId": 9,
+      "productName": "Product 88",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 16,
+      "unitsInStock": 34
+    },
+    {
+      "id": 89,
+      "categoryId": 9,
+      "productName": "Product 89",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 31
+    },
+    {
+      "id": 90,
+      "categoryId": 9,
+      "productName": "Product 90",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 20,
+      "unitsInStock": 29
+    },
+    {
+      "id": 91,
+      "categoryId": 10,
+      "productName": "Product 91",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 20
+    },
+    {
+      "id": 92,
+      "categoryId": 10,
+      "productName": "Product 92",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 18
+    },
+    {
+      "id": 93,
+      "categoryId": 10,
+      "productName": "Product 93",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 12,
+      "unitsInStock": 22
+    },
+    {
+      "id": 94,
+      "categoryId": 10,
+      "productName": "Product 94",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 16,
+      "unitsInStock": 30
+    },
+    {
+      "id": 95,
+      "categoryId": 10,
+      "productName": "Product 95",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 18,
+      "unitsInStock": 28
+    },
+    {
+      "id": 96,
+      "categoryId": 10,
+      "productName": "Product 96",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 19,
+      "unitsInStock": 25
+    },
+    {
+      "id": 97,
+      "categoryId": 10,
+      "productName": "Product 97",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 13,
+      "unitsInStock": 31
+    },
+    {
+      "id": 98,
+      "categoryId": 10,
+      "productName": "Product 98",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 14,
+      "unitsInStock": 19
+    },
+    {
+      "id": 99,
+      "categoryId": 10,
+      "productName": "Product 99",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 15,
+      "unitsInStock": 22
+    },
+    {
+      "id": 100,
+      "categoryId": 10,
+      "productName": "Product 100",
+      "quantityPerUnit": "10 units",
+      "unitPrice": 17,
+      "unitsInStock": 24
     }
   ]
 }

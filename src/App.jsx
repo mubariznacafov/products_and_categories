@@ -5,13 +5,12 @@ import CategoryList from "./components/CategoryList";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("");
+  const categoryInfo = { title: "Category List" };
+  const productInfo = { title: "Product List" };
 
   const changeCategory = (categoryName) => {
     setSelectedCategory(categoryName);
   };
-
-  const productInfo = { title: "Product List" };
-  const categoryInfo = { title: "Category List" };
 
   return (
     <>
@@ -29,7 +28,7 @@ function App() {
           </div>
           <div className="col-9 text-center">
             <ProductList
-              selectedCategory={selectedCategory} // Seçilen kategori adını ProductList'e iletiyoruz
+              selectedCategory={selectedCategory}
               info={productInfo}
             />
           </div>
@@ -38,5 +37,4 @@ function App() {
     </>
   );
 }
-
 export default App;

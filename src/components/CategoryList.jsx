@@ -23,7 +23,7 @@ const CategoryList = (props) => {
           <ListGroup.Item
             key={category.id}
             onClick={() => {
-              changeCategory(category.categoryName); // Doğru kategori adını aldığınızdan emin olun
+              changeCategory(category.id);
             }}
           >
             {category.categoryName}
